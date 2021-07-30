@@ -1,0 +1,74 @@
+@import url('//db.onlinewebfonts.com/c/5a12fc8d965ca599add0307a739bb684?family=SinnW00-Bold');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
+body{
+    text-align: center;
+    margin: 0%;
+}
+
+h1{
+    margin-top: 0px;
+    color: #FFD523;
+    font-family: "SinnW00-Bold";
+    font-size: 4rem;
+    text-shadow: 3px 3px 3px black;
+    display: inline;
+}
+
+.heading{
+    margin-bottom: 3rem;
+    background-color: #393E46;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.minions{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#inputBox{
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    font-size: 0.9rem; 
+    margin-bottom: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+#outputBox{
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;   
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    border: none;
+    background-color: #FFD523;
+    border: 1px solid #393E46;
+    border-radius: 0.3rem;
+    color: #393E46;
+}
+
+.btn:hover{
+    background-color: #393E46;
+    color: #FFD523;
+    border: 1px solid #FFD523;
+}
+
+/* .top-bar{
+    background-color: #f5e050;
+    height: 4rem;
+} */
+
