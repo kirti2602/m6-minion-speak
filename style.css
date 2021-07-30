@@ -11,7 +11,7 @@ h1{
     color: #FFD523;
     font-family: "SinnW00-Bold";
     font-size: 4rem;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 4px 4px 4px black;
     display: inline;
 }
 
@@ -25,7 +25,6 @@ h1{
 .minions{
     margin-left: 20px;
     margin-right: 20px;
-
 }
 
 #inputBox{
@@ -67,8 +66,27 @@ h1{
     border: 1px solid #FFD523;
 }
 
-/* .top-bar{
-    background-color: #f5e050;
-    height: 4rem;
-} */
+footer{
+    margin-top: 3rem;
+    background-color: #393E46;
+    padding: 0.9rem;
+    color: #FFD523;
+    font-family: 'Montserrat', sans-serif;
+}
 
+footer h3{
+    font-weight: 900;
+}
+
+footer p{
+    color: white;
+}
+
+footer .fa-github{
+    font-size:34px; 
+    color: #FFD523;
+}
+
+footer .fa-github:hover{
+    color: white;
+}
